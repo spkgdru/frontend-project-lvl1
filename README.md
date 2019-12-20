@@ -4,6 +4,5 @@
 <a href="https://travis-ci.org/spkgdru/frontend-project-lvl1.svg?branch=master">
 <img src="https://travis-ci.org/spkgdru/frontend-project-lvl1.svg"></a>
 
-<a href="https://asciinema.org/a/5FR31A58TZflAQyqipLnwKEyA" target="_blank"><img src="https://asciinema.org/a/5FR31A58TZflAQyqipLnwKEyA.svg" /></a>
-
-<script id="asciicast-5FR31A58TZflAQyqipLnwKEyA" src="https://asciinema.org/a/5FR31A58TZflAQyqipLnwKEyA.js" async></script>
+Installing package aтв stating console game 'brain-calc'
+<a href="https://asciinema.org/a/4AWRu7PLrkE5on57t4ueQ2oHH" target="_blank"><img src="https://asciinema.org/a/4AWRu7PLrkE5on57t4ueQ2oHH.svg" /></a>
