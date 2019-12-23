@@ -1,6 +1,6 @@
 {
   "name": "spkgdru-frontend-project-lvl1",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
   "bin": {
     "brain-games": "dist/games/brain-games.js",
     "brain-even": "dist/games/brain-even.js",
-    "brain-calc": "dist/games/brain-calc.js"
+    "brain-calc": "dist/games/brain-calc.js",
+    "brain-gcd": "dist/games/brain-gcd.js"
   },
   "repository": {
     "type": "git",
