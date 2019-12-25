@@ -6,14 +6,21 @@
 
 
 Installing the package:
-<a href="https://asciinema.org/a/UhyTtLhncMCONOGBEmHcDzOva" target="_blank"><img src="https://asciinema.org/a/4AWRu7PLrkE5on57t4ueQ2oHH.svg" /></a>
+<a href="https://asciinema.org/a/UhyTtLhncMCONOGBEmHcDzOva" target="_blank"><img src="https://asciinema.org/a/UhyTtLhncMCONOGBEmHcDzOva.svg" /></a>
 
-Installing the package and starting console game 'brain-gcd'
-<a href="https://asciinema.org/a/ocuavO30Gi1Dx3nj8gzaSCzgT" target="_blank"><img src="https://asciinema.org/a/4AWRu7PLrkE5on57t4ueQ2oHH.svg" /></a>
+Starting cli-game brain-even:
+<a href="https://asciinema.org/a/4VzCkIsM6pyTT8RDIWw94EvSh" target="_blank"><img src="https://asciinema.org/a/4VzCkIsM6pyTT8RDIWw94EvSh.svg" /></a>
 
-Installing the package and starting console game 'brain-progression'
-<a href="https://asciinema.org/a/mN3X8ZBk44KOWuuMYq0F8IPoj" target="_blank"><img src="https://asciinema.org/a/4AWRu7PLrkE5on57t4ueQ2oHH.svg" /></a> 
+Starting cli-game brain-calc:
+<a href="https://asciinema.org/a/q04OyNvcwasC37kg91flAjXGk" target="_blank"><img src="https://asciinema.org/a/q04OyNvcwasC37kg91flAjXGk.svg" /></a>
 
-Installing the package and starting console game 'brain-prime'
-<a href="https://asciinema.org/a/fIz9yVqP3CfCSN4L9JQuj4ZBl" target="_blank"><img src="https://asciinema.org/a/4AWRu7PLrkE5on57t4ueQ2oHH.svg" /></a>
+Starting cli-game brain-gcd:
+<a href="https://asciinema.org/a/0sakVb9cse0Vi6LD3zcTUXRSv" target="_blank"><img src="https://asciinema.org/a/0sakVb9cse0Vi6LD3zcTUXRSv.svg" /></a>
+
+Starting cli-game brain-progression:
+<a href="https://asciinema.org/a/EhNKkJZSYe6FswtnNXhJb1BFe" target="_blank"><img src="https://asciinema.org/a/EhNKkJZSYe6FswtnNXhJb1BFe.svg" /></a>
+
+Starting cli-game brain-prime:
+<a href="https://asciinema.org/a/17YKyZkUDvOvTn47JTGXn38Dl" target="_blank"><img src="https://asciinema.org/a/17YKyZkUDvOvTn47JTGXn38Dl.svg" /></a>
+
 
