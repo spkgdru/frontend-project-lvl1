@@ -1,9 +1,11 @@
 # frontend-project-lvl1
+<span>
 <a href="https://codeclimate.com/github/spkgdru/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/3d550664e10c423bc4f6/maintainability" /></a>
-
+</span>
+<span>
 <a href="https://travis-ci.org/spkgdru/frontend-project-lvl1.svg?branch=master">
 <img src="https://travis-ci.org/spkgdru/frontend-project-lvl1.svg"></a>
-
+</span>
 
 Installing the package:
 <a href="https://asciinema.org/a/UhyTtLhncMCONOGBEmHcDzOva" target="_blank"><img src="https://asciinema.org/a/UhyTtLhncMCONOGBEmHcDzOva.svg" /></a>
