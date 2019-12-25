@@ -5,19 +5,20 @@ import game from '..';
 const greeting = 'What number is missing in the progression?';
 
 const quest = () => {
-  const num1 = Math.floor(Math.random() * 30);
-  const num2 = Math.floor(Math.random() * 14) + 1;
-  const num3 = Math.floor(Math.random() * 10);
+  const progressStartValue = Math.floor(Math.random() * 30);
+  const progressStep = Math.floor(Math.random() * 14) + 1;
+  const position = Math.floor(Math.random() * 10);
+  const progressLength = 10;
 
   const progress = (element, step, amountOfNumbers, unknownPosition) => {
     if (amountOfNumbers === 0) return '';
     if (unknownPosition === 0) return `.. ${progress(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
     return `${element} ${progress(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
   };
-  const unknownElement = num1 + num2 * num3;
+  const unknownElement = progressStartValue + progressStep * position;
 
   return {
-    question: progress(num1, num2, 10, num3),
+    question: progress(progressStartValue, progressStep, progressLength, position),
     answer: `${unknownElement}`,
   };
 };
