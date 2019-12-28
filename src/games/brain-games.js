@@ -2,4 +2,4 @@
 
 import init from '..';
 
-init(brainGames);
+init('brainGames');
