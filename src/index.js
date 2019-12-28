@@ -1,6 +1,8 @@
 import readlineSync from 'readline-sync';
 import random from './random.js';
 
+const answersToWin = 3;
+
 const even = num => {
     return num % 2 === 0;
 }
@@ -106,7 +108,7 @@ const game = (greeting, quest) => {
   if (!quest) return;
 
   const attempt = (result = 0) => {
-    if (result === 3) {
+    if (result === answersToWin) {
       console.log(`Congratulations, ${userName}!`);
       return;
     }
