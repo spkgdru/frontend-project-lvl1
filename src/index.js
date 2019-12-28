@@ -15,6 +15,11 @@ const prime = num => {
     return check(Math.floor(Math.sqrt(num))); 
 }
 
+const gcd = (big, small) => {
+       if (big % small === 0) return small;
+       return gcd(small, big % small);
+};
+
 const init = typeOfGame => {
     const games = {
     brainCalc: {
@@ -51,10 +56,6 @@ const init = typeOfGame => {
             const num1 = random(1, 100);
             const num2 = random(1, 100);
             const [bigNum, smallNum] = num1 >= num2 ? [num1, num2] : [num2, num1];
-            const gcd = (big, small) => {
-              if (big % small === 0) return small;
-              return gcd(small, big % small);
-            };
             return {
               question: `${num1} ${num2}`,
               answer: `${gcd(bigNum, smallNum)}`,
