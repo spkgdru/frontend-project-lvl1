@@ -3,7 +3,7 @@
 <a href="https://codeclimate.com/github/spkgdru/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/3d550664e10c423bc4f6/maintainability" /></a>
 </span>
 <span>
-<a href="https://travis-ci.org/spkgdru/frontend-project-lvl1.svg?branch=master">
+<a href="https://travis-ci.org/spkgdru/frontend-project-lvl1">
 <img src="https://travis-ci.org/spkgdru/frontend-project-lvl1.svg"></a>
 </span></div>
 
