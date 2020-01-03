@@ -1,26 +1,8 @@
 import readlineSync from 'readline-sync';
-import random from './random';
 
 const answersToWin = 3;
 
-const even = (num) => num % 2 === 0;
-
-const prime = (num) => {
-  const check = (div) => {
-    if (div === 1) return true;
-    return num % div === 0 ? false : check(div - 1);
-  };
-  return check(Math.floor(Math.sqrt(num)));
-};
-
-const gcd = (big, small) => {
-  if (big % small === 0) return small;
-  return gcd(small, big % small);
-};
-
-
-const game = (theGame) => {
-  const { greeting, quest } = theGame;
+const game = (greeting, quest) => {
   console.log('Welcome to the Brain Games!');
   console.log(greeting || '');
   const userName = readlineSync.question('May I have your name? ');
@@ -44,82 +26,4 @@ const game = (theGame) => {
   attempt();
 };
 
-
-const init = (typeOfGame) => {
-  const games = {
-    brainCalc: {
-      greeting: 'What is the result of the expression?',
-      quest: () => {
-        const num1 = random(1, 100);
-        const num2 = random(1, 100);
-        const sign = random(1, 2);
-        const question = {
-          1: `${num1}+${num2}`,
-          2: `${num1}*${num2}`,
-        };
-        const answer = {
-          1: num1 + num2,
-          2: num1 * num2,
-        };
-        return {
-          question: question[sign],
-          answer: `${answer[sign]}`,
-        };
-      },
-    },
-    brainEven: {
-      greeting: 'Answer "yes" if the number is even, otherwise answer "no"',
-      quest: () => {
-        const question = random(1, 100);
-        const answer = even(question) ? 'yes' : 'no';
-        return { question, answer };
-      },
-    },
-    brainGcd: {
-      greeting: 'Find the greatest common divisor of given numbers.',
-      quest: () => {
-        const num1 = random(1, 100);
-        const num2 = random(1, 100);
-        const [bigNum, smallNum] = num1 >= num2 ? [num1, num2] : [num2, num1];
-        return {
-          question: `${num1} ${num2}`,
-          answer: `${gcd(bigNum, smallNum)}`,
-        };
-      },
-    },
-    brainProgression: {
-      greeting: 'What number is missing in the progression?',
-      quest: () => {
-        const progressStartValue = random(1, 30);
-        const progressStep = random(2, 15);
-        const position = random(1, 10);
-        const progressLength = 10;
-        const progress = (element, step, amountOfNumbers, unknownPosition) => {
-          if (amountOfNumbers === 0) return '';
-          if (unknownPosition === 0) return `.. ${progress(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
-          return `${element} ${progress(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
-        };
-        const unknownElement = progressStartValue + progressStep * position;
-        return {
-          question: progress(progressStartValue, progressStep, progressLength, position),
-          answer: `${unknownElement}`,
-        };
-      },
-    },
-    brainGames: {
-
-    },
-    brainPrime: {
-      greeting: 'Answer "yes" if given number is prime. Otherwise answer "no".',
-      quest: () => {
-        const question = random(1, 3000);
-        const answer = prime(question) ? 'yes' : 'no';
-        return { question, answer };
-      },
-    },
-
-  };
-  return game(games[typeOfGame]);
-};
-
-export default init;
+export default game;
