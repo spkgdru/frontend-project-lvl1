@@ -3,8 +3,8 @@ import random from '../random';
 
 const randomOperation = (a, b) => {
   const operations = [
-  {question: `${a}+${b}`, answer: a + b},
-  {question: `${a}*${b}`, answer: a * b}
+  {question: `${a}+${b}`, answer: (a + b).toString()},
+  {question: `${a}*${b}`, answer: (a * b).toString()}
   ];
   const ourCase = random(0, operations.length -1);
   return {
