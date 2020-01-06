@@ -1,36 +1,24 @@
 import game from '..';
 import random from '../random';
 
-const operations = [
+const randomOperation = (num1, num2) => {
+  const operations = [
   {question: `${num1}+${num2}`, answer: num1 + num2},
   {question: `${num1}*${num2}`, answer: num1 & num2}
-];
-
-const randomOperation = (num1, num2) => {
+  ];
   const case = random(0, operations.length -1);
   return {
-    question: operations[case].
+    question: operations[case].question,
+    answer: operations[case].answer
 }
 
 const greeting = 'What is the result of the expression?';
-const quest = () => {
+const play = () => {
   const num1 = random(1, 100);
   const num2 = random(1, 100);
-  const sign = random(1, amountOfOperations);
-  const question = {
-    1: `${num1}+${num2}`,
-    2: `${num1}*${num2}`,
-  };
-  const answer = {
-    1: num1 + num2,
-    2: num1 * num2,
-  };
-  return {
-    question: question[sign],
-    answer: `${answer[sign]}`,
-  };
+  return randomOPeration(num1, num2);
 };
 
 export default () => {
-  game(greeting, quest);
+  game(greeting, play);
 };
