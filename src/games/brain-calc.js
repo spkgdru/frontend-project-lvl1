@@ -6,10 +6,10 @@ const randomOperation = (num1, num2) => {
   {question: `${num1}+${num2}`, answer: num1 + num2},
   {question: `${num1}*${num2}`, answer: num1 & num2}
   ];
-  const case = random(0, operations.length -1);
+  const ourCase = random(0, operations.length -1);
   return {
-    question: operations[case].question,
-    answer: operations[case].answer
+    question: operations[ourCase].question,
+    answer: operations[ourCase].answer
 }
 
 const greeting = 'What is the result of the expression?';
