@@ -10,6 +10,7 @@ const randomOperation = (a, b) => {
   return {
     question: operations[ourCase].question,
     answer: operations[ourCase].answer
+  };
 }
 
 const greeting = 'What is the result of the expression?';
