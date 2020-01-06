@@ -16,7 +16,7 @@ const greeting = 'What is the result of the expression?';
 const play = () => {
   const num1 = random(1, 100);
   const num2 = random(1, 100);
-  return randomOPeration(num1, num2);
+  return randomOperation(num1, num2);
 };
 
 export default () => {
