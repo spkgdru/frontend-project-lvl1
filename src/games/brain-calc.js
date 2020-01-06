@@ -1,10 +1,10 @@
 import game from '..';
 import random from '../random';
 
-const randomOperation = (num1, num2) => {
+const randomOperation = (a, b) => {
   const operations = [
-  {question: `${num1}+${num2}`, answer: num1 + num2},
-  {question: `${num1}*${num2}`, answer: num1 & num2}
+  {question: `${a}+${b}`, answer: a + b},
+  {question: `${a}*${b}`, answer: a * b}
   ];
   const ourCase = random(0, operations.length -1);
   return {
@@ -22,3 +22,4 @@ const play = () => {
 export default () => {
   game(greeting, play);
 };
+  
