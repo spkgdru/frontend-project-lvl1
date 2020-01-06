@@ -7,7 +7,7 @@ const gcd = (num1, num2) => {
 };
 
 const greeting = 'Find the greatest common divisor of given numbers.';
-const quest = () => {
+const play = () => {
   const num1 = random(1, 100);
   const num2 = random(1, 100);
   return {
@@ -17,5 +17,5 @@ const quest = () => {
 };
 
 export default () => {
-  game(greeting, quest);
+  game(greeting, play);
 };
