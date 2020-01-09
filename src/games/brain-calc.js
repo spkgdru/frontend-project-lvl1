@@ -1,11 +1,12 @@
 import game from '..';
 import random from '../random';
 
-const randomOperation = (a, b) => {
-  const operations = [
+const operations = [
   {question: `${a}+${b}`, answer: (a + b).toString()},
   {question: `${a}*${b}`, answer: (a * b).toString()}
   ];
+
+const randomOperation = (a, b) => {
   const ourCase = random(0, operations.length -1);
   return {
     question: operations[ourCase].question,
