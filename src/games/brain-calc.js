@@ -1,27 +1,29 @@
-import game from '..';
-import random from '../random';
+import startGame from '..';
+import getRandomNum from '../random';
 
-const operations = [
-  {question: `${a}+${b}`, answer: (a + b).toString()},
-  {question: `${a}*${b}`, answer: (a * b).toString()}
-  ];
-
-const randomOperation = (a, b) => {
-  const ourCase = random(0, operations.length -1);
-  return {
-    question: operations[ourCase].question,
-    answer: operations[ourCase].answer
-  };
-}
-
+const [randomNumberMin, randomNumberMax] = [1, 100];
+const operations = ['+', '*'];
 const greeting = 'What is the result of the expression?';
-const play = () => {
-  const num1 = random(1, 100);
-  const num2 = random(1, 100);
-  return randomOperation(num1, num2);
+
+const createGameData = () => {
+  const randomNumber1 = getRandomNum(randomNumberMin, randomNumberMax);
+  const randomNumber2 = getRandomNum(randomNumberMin, randomNumberMax);
+  const randomOperation = getRandomNum(0, operation.length - 1);
+  switch (randomOperation) {
+    case 0: 
+      return {
+        question: `${randomNumber1} + ${randomNumber2}`,
+        answer: randomNumber1 + randomNumber2
+      };
+    case 1: 
+      return {
+        question: `${randomNumber1} * ${randomNumber2}`,
+        answer: randomNumber1 * randomNumber2
+      };
+  }
 };
 
 export default () => {
-  game(greeting, play);
+  startGame(greeting, createGameData);
 };
   
