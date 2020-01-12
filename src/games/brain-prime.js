@@ -1,5 +1,5 @@
 import game from '..';
-import random from '../random';
+import getRandom from '../random';
 
 const minNumber = 1;
 const maxNumber = 3000;
@@ -14,7 +14,7 @@ const isPrime = (num) => {
 
 const greeting = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const createGameData = () => {
-  const question = random(minNumber, maxNumber);
+  const question = getRandom(minNumber, maxNumber);
   const answer = isPrime(question) ? 'yes' : 'no';
   return { question, answer };
 };
