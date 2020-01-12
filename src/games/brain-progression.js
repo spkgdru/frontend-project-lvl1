@@ -7,7 +7,7 @@ const progressionLength = 10;
 
 const greeting = 'What number is missing in the progression?';
 const createGameData = () => {
-  const emptyPosition = getRandom(0, progressLength - 1);
+  const emptyPosition = getRandom(0, progressionLength - 1);
   const createProgression = (element, step, amountOfNumbers, unknownPosition) => {
     if (amountOfNumbers === 0) return '';
     if (unknownPosition === 0) return `.. ${createProgression(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
