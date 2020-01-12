@@ -20,7 +20,7 @@ const createGameData = () => {
     question: createProgression(seriesStartValue, seriesStep, seriesLength, emptyPosition),
     answer: unknownElement.toString(),
   };
-}
+};
 
 export default () => {
   game(greeting, createGameData);
