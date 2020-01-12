@@ -11,20 +11,19 @@ const createGameData = () => {
   const num2 = getRandom(minNumber, maxNumber);
   const operation = operations[getRandom(0, operations.length - 1)];
   switch (operation) {
-    case '+': 
-      return {
-        question: `${num1} + ${num2}`,
-        answer: (num1 + num2).toString()
-      };
     case '*': 
-      return {
+      const result = {
         question: `${num1} * ${num2}`,
         answer: (num1 * num2).toString()
       };
+      break;
     default:
-      return;
+      const result = {
+        question: `${num1} + ${num2}`,
+        answer: (num1 + num2).toString()
+      };
   }
-  return;
+  return result;
 };
 
 export default () => {
