@@ -9,7 +9,7 @@
 
 
 Installing the package:
-<a href="https://asciinema.org/a/UhyTtLhncMCONOGBEmHcDzOva" target="_blank"><img src="https://asciinema.org/a/UhyTtLhncMCONOGBEmHcDzOva.svg" /></a>
+<a href="https://asciinema.org/connect/3fd64f3b-4488-422e-af00-c4e8c7e406e5" target="_blank"><img src="https://asciinema.org/a/UhyTtLhncMCONOGBEmHcDzOva.svg" /></a>
 
 Starting cli-game brain-even:
 <a href="https://asciinema.org/a/4VzCkIsM6pyTT8RDIWw94EvSh" target="_blank"><img src="https://asciinema.org/a/4VzCkIsM6pyTT8RDIWw94EvSh.svg" /></a>
