@@ -1,24 +1,25 @@
 import startGame from '..';
-import getRandomNum from '../random';
+import getRandom from '../random';
 
-const [randomNumberMin, randomNumberMax] = [1, 100];
+const minNumber = 1;
+const maxNumber = 100;
 const operations = ['+', '*'];
-const greeting = 'What is the result of the expression?';
 
+const greeting = 'What is the result of the expression?';
 const createGameData = () => {
-  const randomNumber1 = getRandomNum(randomNumberMin, randomNumberMax);
-  const randomNumber2 = getRandomNum(randomNumberMin, randomNumberMax);
-  const randomOperation = getRandomNum(0, operation.length - 1);
-  switch (randomOperation) {
-    case 0: 
+  const num1 = getRandom(minNumber, maxNumber);
+  const num2 = getRandom(minNumber, maxNumber);
+  const operation = operations[getRandom(0, operations.length - 1)];
+  switch (operation) {
+    case '+': 
       return {
-        question: `${randomNumber1} + ${randomNumber2}`,
-        answer: randomNumber1 + randomNumber2
+        question: `${num1} + ${num2}`,
+        answer: num1 + num2
       };
-    case 1: 
+    case '*': 
       return {
-        question: `${randomNumber1} * ${randomNumber2}`,
-        answer: randomNumber1 * randomNumber2
+        question: `${num1} * ${num2}`,
+        answer: num1 * num2
       };
   }
 };
