@@ -19,10 +19,9 @@ const createGameData = () => {
     default:
       result.question = `${num1} * ${num2}`;
       result.answer = (num1 * num2).toString();
-      };
-  }
+    }
   return result;
-};
+}
 
 export default () => {
   startGame(greeting, createGameData);
