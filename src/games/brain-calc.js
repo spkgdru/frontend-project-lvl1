@@ -19,7 +19,7 @@ const createGameData = () => {
     case '*': 
       return {
         question: `${num1} * ${num2}`,
-        answer: num1 * num2
+        answer: (num1 * num2).toString()
       };
   }
 };
