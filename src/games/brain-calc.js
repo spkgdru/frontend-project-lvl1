@@ -3,7 +3,7 @@ import getRandom from '../random';
 
 const minNumber = 1;
 const maxNumber = 100;
-const operations = ['+', '*'];
+const operations = ['+', '-', '*'];
 
 const greeting = 'What is the result of the expression?';
 const createGameData = () => {
@@ -15,6 +15,10 @@ const createGameData = () => {
     case '+':
       result.question = `${num1} + ${num2}`;
       result.answer = (num1 + num2).toString();
+      break;
+    case '-':
+      result.question = `${num1} - ${num2}`;
+      result.answer = (num1 - num2).toString();
       break;
     default:
       result.question = `${num1} * ${num2}`;
