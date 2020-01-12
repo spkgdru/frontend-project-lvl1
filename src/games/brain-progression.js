@@ -15,17 +15,21 @@ const createGameData = () => {
     if (unknownPosition === 0) return `.. ${createProgression(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
     return `${element} ${createProgression(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
 <<<<<<< HEAD
+<<<<<<< HEAD
   };
   const unknownElement = progressionStartValue + progressionStep * emptyPosition;
 =======
     };
+=======
+    }
+>>>>>>> f44f3b67398bf869a94dfd34ec6a2f650bdbd59d
   const unknownElement = seriesStartValue + seriesStep * emptyPosition;
 >>>>>>> 4b46ed5f4fcc91f4817197a55faa3154b2ba996a
   return {
     question: createProgression(seriesStartValue, seriesStep, seriesLength, emptyPosition),
     answer: unknownElement.toString(),
   };
-};
+}
 
 export default () => {
   game(greeting, createGameData);
