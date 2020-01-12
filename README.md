@@ -21,7 +21,7 @@ Starting cli-game brain-gcd:
 <a href="https://asciinema.org/a/CVcPSVMZYPurmLs81MHH6LOL5" target="_blank"><img src="https://asciinema.org/a/CVcPSVMZYPurmLs81MHH6LOL5.svg" /></a>
 
 Starting cli-game brain-progression:
-<a href="https://asciinema.org/a/EhNKkJZSYe6FswtnNXhJb1BFe" target="_blank"><img src="https://asciinema.org/a/EhNKkJZSYe6FswtnNXhJb1BFe.svg" /></a>
+<a href="https://asciinema.org/a/xbufRA4PLqwjhtBE8J0qMEYqw" target="_blank"><img src="https://asciinema.org/a/xbufRA4PLqwjhtBE8J0qMEYqw.svg" /></a>
 
 Starting cli-game brain-prime:
 <a href="https://asciinema.org/a/riWd7Vjoz7fpBkyofAFOwiaAP" target="_blank"><img src="https://asciinema.org/a/riWd7Vjoz7fpBkyofAFOwiaAP.svg" /></a>
