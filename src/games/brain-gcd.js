@@ -1,5 +1,5 @@
 import game from '..';
-import random from '../random';
+import getRandom from '../random';
 
 const minNumber = 1;
 const maxNumber = 100;
@@ -11,8 +11,8 @@ const calculateGcd = (num1, num2) => {
 
 const greeting = 'Find the greatest common divisor of given numbers.';
 const createGameData = () => {
-  const num1 = random(minNumber, maxNumber);
-  const num2 = random(minNumber, maxNumber);
+  const num1 = getRandom(minNumber, maxNumber);
+  const num2 = getRandom(minNumber, maxNumber);
   return {
     question: `${num1} ${num2}`,
     answer: calculateGcd(num1, num2).toString()
