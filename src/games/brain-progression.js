@@ -1,13 +1,13 @@
 import game from '..';
 import getRandom from '../random';
 
-const seriesStartValue = getRandom(1, 30);
 const seriesLength = 10;
 const seriesMinStep = 2;
 const seriesMaxStep = 15;
 
 const greeting = 'What number is missing in the progression?';
 const createGameData = () => {
+  const seriesStartValue = getRandom(1, 30);
   const emptyPosition = getRandom(0, seriesLength - 1);
   const seriesStep = getRandom(seriesMinStep, seriesMaxStep);
   const createProgression = (element, step, amountOfNumbers, unknownPosition) => {
