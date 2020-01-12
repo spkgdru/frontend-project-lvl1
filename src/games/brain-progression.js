@@ -1,25 +1,25 @@
 import game from '..';
 import random from '../random';
 
-const progressStartValue = random(1, 30);
-const progressStep = random(2, 15);
-const progressLength = 10;
+const progressionStartValue = random(1, 30);
+const progressionStep = random(2, 15);
+const progressionLength = 10;
 
 const greeting = 'What number is missing in the progression?';
-const play = () => {
-  const position = random(0, progressLength - 1);
-  const progress = (element, step, amountOfNumbers, unknownPosition) => {
+const createGameData = () => {
+  const emptyPosition = random(0, progressLength - 1);
+  const createProgression = (element, step, amountOfNumbers, unknownPosition) => {
     if (amountOfNumbers === 0) return '';
-    if (unknownPosition === 0) return `.. ${progress(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
-    return `${element} ${progress(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
+    if (unknownPosition === 0) return `.. ${createProgression(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
+    return `${element} ${createProgression(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
   };
-  const unknownElement = progressStartValue + progressStep * position;
+  const unknownElement = element + step * unknownPosition;
   return {
-    question: progress(progressStartValue, progressStep, progressLength, position),
+    question: createProgression(progressionStartValue, progressionStep, progressionLength, emptyPosition),
     answer: unknownElement.toString(),
   };
 };
 
 export default () => {
-  game(greeting, play);
+  game(greeting, createGameData);
 };
