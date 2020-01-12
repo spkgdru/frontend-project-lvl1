@@ -12,7 +12,7 @@ const createGameData = () => {
     if (amountOfNumbers === 0) return '';
     if (unknownPosition === 0) return `.. ${createProgression(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
     return `${element} ${createProgression(element + step, step, amountOfNumbers - 1, unknownPosition - 1)} `;
-    };
+  };
   const unknownElement = progressionStartValue + progressionStep * emptyPosition;
   return {
     question: createProgression(progressionStartValue, progressionStep, progressionLength, emptyPosition),

@@ -15,7 +15,7 @@ const createGameData = () => {
   const num2 = getRandom(minNumber, maxNumber);
   return {
     question: `${num1} ${num2}`,
-    answer: calculateGcd(num1, num2).toString()
+    answer: calculateGcd(num1, num2).toString(),
   };
 };
 
