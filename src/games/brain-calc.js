@@ -17,8 +17,8 @@ const createGameData = () => {
       result.answer = (num1 + num2).toString();
       break;
     default:
-      result.question: `${num1} * ${num2}`;
-      result.answer: (num1 * num2).toString();
+      result.question = `${num1} * ${num2}`;
+      result.answer = (num1 * num2).toString();
       };
   }
   return result;
