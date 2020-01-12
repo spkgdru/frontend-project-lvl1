@@ -1,21 +1,24 @@
 import game from '..';
 import random from '../random';
 
-const gcd = (num1, num2) => {
+const minNumber = 1;
+const maxNumber = 100;
+
+const calculateGcd = (num1, num2) => {
   if (num1 === num2) return num1;
-  return gcd(num2, Math.abs(num2 - num1));
+  return calculateGcd(num2, Math.abs(num2 - num1));
 };
 
 const greeting = 'Find the greatest common divisor of given numbers.';
-const play = () => {
-  const num1 = random(1, 100);
-  const num2 = random(1, 100);
+const createGameData = () => {
+  const num1 = random(minNumber, maxNumber);
+  const num2 = random(minNumber, maxNumber);
   return {
     question: `${num1} ${num2}`,
-    answer: gcd(num1, num2).toString()
+    answer: calculateGcd(num1, num2).toString()
   };
 };
 
 export default () => {
-  game(greeting, play);
+  game(greeting, createGameData);
 };
