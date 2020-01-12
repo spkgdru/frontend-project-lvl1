@@ -9,21 +9,21 @@
 
 
 Installing the package:
-<a href="https://asciinema.org/connect/3fd64f3b-4488-422e-af00-c4e8c7e406e5" target="_blank"><img src="https://asciinema.org/a/UhyTtLhncMCONOGBEmHcDzOva.svg" /></a>
+<a href="https://asciinema.org/a/yi0rrmTIuKo9OzUwiGA2qD33x" target="_blank"><img src="https://asciinema.org/a/yi0rrmTIuKo9OzUwiGA2qD33x.svg" /></a>
 
 Starting cli-game brain-even:
-<a href="https://asciinema.org/a/4VzCkIsM6pyTT8RDIWw94EvSh" target="_blank"><img src="https://asciinema.org/a/4VzCkIsM6pyTT8RDIWw94EvSh.svg" /></a>
+<a href="https://asciinema.org/a/iTX1NTx9EbQDcoOQokEtG89Nn" target="_blank"><img src="https://asciinema.org/a/iTX1NTx9EbQDcoOQokEtG89Nn.svg" /></a>
 
 Starting cli-game brain-calc:
-<a href="https://asciinema.org/a/q04OyNvcwasC37kg91flAjXGk" target="_blank"><img src="https://asciinema.org/a/q04OyNvcwasC37kg91flAjXGk.svg" /></a>
+<a href="https://asciinema.org/a/ZMyZJMBIiaoAn3irGBUgA68fH" target="_blank"><img src="https://asciinema.org/a/ZMyZJMBIiaoAn3irGBUgA68fH.svg" /></a>
 
 Starting cli-game brain-gcd:
-<a href="https://asciinema.org/a/0sakVb9cse0Vi6LD3zcTUXRSv" target="_blank"><img src="https://asciinema.org/a/0sakVb9cse0Vi6LD3zcTUXRSv.svg" /></a>
+<a href="https://asciinema.org/a/CVcPSVMZYPurmLs81MHH6LOL5" target="_blank"><img src="https://asciinema.org/a/CVcPSVMZYPurmLs81MHH6LOL5.svg" /></a>
 
 Starting cli-game brain-progression:
 <a href="https://asciinema.org/a/EhNKkJZSYe6FswtnNXhJb1BFe" target="_blank"><img src="https://asciinema.org/a/EhNKkJZSYe6FswtnNXhJb1BFe.svg" /></a>
 
 Starting cli-game brain-prime:
-<a href="https://asciinema.org/a/17YKyZkUDvOvTn47JTGXn38Dl" target="_blank"><img src="https://asciinema.org/a/17YKyZkUDvOvTn47JTGXn38Dl.svg" /></a>
+<a href="https://asciinema.org/a/riWd7Vjoz7fpBkyofAFOwiaAP" target="_blank"><img src="https://asciinema.org/a/riWd7Vjoz7fpBkyofAFOwiaAP.svg" /></a>
 
 
