@@ -22,9 +22,7 @@ const createGameData = () => {
         answer: (num1 * num2).toString(),
       };
     default:
-      return;
   }
-  return;
 };
 
 export default () => {
