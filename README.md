@@ -27,7 +27,7 @@ Brain-gcd shows you two numbers and you have to calculate greatest common diviso
 Brain progression has a sequence of numbers in which each differs from the preceding by a constant quantity. There is an one passed number. You have to write it. (answer: 3 5 7 9 .. 13 15 17 19 21, you type 11).
 
 Installing the package:
-Global: sudo npm install -g spkgdru-frontend-project-lvl1
+Global: sudo npm install -g spkgdru-frontend-project-lvl1 /n
 Local: npm install spkgdru-frontend-project-lvl1
 <a href="https://asciinema.org/a/yi0rrmTIuKo9OzUwiGA2qD33x" target="_blank"><img src="https://asciinema.org/a/yi0rrmTIuKo9OzUwiGA2qD33x.svg" /></a>
 
