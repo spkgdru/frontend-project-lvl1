@@ -33,7 +33,10 @@ Installing the package:
 <a href="https://asciinema.org/a/yi0rrmTIuKo9OzUwiGA2qD33x" target="_blank"><img src="https://asciinema.org/a/yi0rrmTIuKo9OzUwiGA2qD33x.svg" /></a>
 
 Starting cli-game brain-even:
-If installed local: npx brain-even
+
+If installed local: 
+ -npx brain-even
+
 <a href="https://asciinema.org/a/iTX1NTx9EbQDcoOQokEtG89Nn" target="_blank"><img src="https://asciinema.org/a/iTX1NTx9EbQDcoOQokEtG89Nn.svg" /></a>
 
 Starting cli-game brain-calc:
