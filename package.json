@@ -1,6 +1,6 @@
 {
   "name": "spkgdru-frontend-project-lvl1",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Some simple logic cli-games",
   "keywords": ["games", "cli", "brain", "hexlet"],
   "main": "index.js",
