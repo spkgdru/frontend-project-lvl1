@@ -13,7 +13,6 @@ const createGameData = () => {
   return { question, answer };
 };
 
-
 export default () => {
   game(greeting, createGameData);
 };
