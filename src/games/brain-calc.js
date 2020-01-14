@@ -10,7 +10,7 @@ const createGameData = () => {
   const num1 = getRandom(minNumber, maxNumber);
   const num2 = getRandom(minNumber, maxNumber);
   const operation = operations[getRandom(0, operations.length - 1)];
-  const question = num1.toString() + ' ' + operation + ' ' + num2.toString();
+  const question = `${num1.toString()} ${operation} ${num2.toString()}`;
   const result = { question };
   switch (operation) {
     case '+':

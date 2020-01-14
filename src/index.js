@@ -20,8 +20,8 @@ const game = (greeting, gameData) => {
       attempt(counter + 1);
       return;
     }
-    console.log(answer + " is wrong answer ;(. Correct answer was " + currentData.answer + ".");
-    console.log("Let's try again, " + userName + "!");
+    console.log(`${answer} is wrong answer ;(. Correct answer was ${currentData.answer}.`);
+    console.log(`Let's try again, ${userName}!`);
   };
   attempt(0);
 };
