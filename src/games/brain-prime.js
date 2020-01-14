@@ -9,7 +9,7 @@ const isPrime = (num) => {
     if (div === 1) return true;
     return num % div === 0 ? false : check(div - 1);
   };
-  return check(Math.floor(Math.sqrt(num)));
+  return num > 1 ? check(Math.floor(Math.sqrt(num))) : false;
 };
 
 const greeting = 'Answer "yes" if given number is prime. Otherwise answer "no".';
