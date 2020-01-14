@@ -7,8 +7,8 @@ const game = (greeting, gameData) => {
   console.log(greeting);
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello ${userName}!`);
-  const attempt = (result = 0) => {
-    if (result === answersToWin) {
+  const attempt = (counter) => {
+    if (counter === answersToWin) {
       console.log(`Congratulations, ${userName}!`);
       return;
     }
@@ -17,13 +17,13 @@ const game = (greeting, gameData) => {
     const answer = readlineSync.question('Your answer: ');
     if (answer === currentData.answer) {
       console.log('Correct!');
-      attempt(result + 1);
+      attempt(counter + 1);
       return;
     }
     console.log(answer + " is wrong answer ;(. Correct answer was " + currentData.answer + ".");
     console.log("Let's try again, " + userName + "!");
   };
-  attempt();
+  attempt(0);
 };
 
 export default game;
