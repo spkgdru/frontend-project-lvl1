@@ -20,15 +20,16 @@ Each game show you a question (math or logical sentence) you try to answer.
 If you type right answer you see next question. Otherwise the game is interrupted. 
 Game has total three questions. You are winner if your answers were correct.
 
-Brain-calc has simple math sentences (answer: '47 + 15', you have to type '62', answer: '12 * 5', you have to type '60').
-Brain-event is asking you if a number is even (answer: '55', you have to type 'no', answer: '98', you have to type 'yes').
-Brain-prime is asking you if a number is prime (answer: '57', you have to type 'yes', answer: '1', you have to type 'no').
-Brain-gcd shows you two numbers and you have to calculate greatest common divisor of the numbers.
-Brain progression has a sequence of numbers in which each differs from the preceding by a constant quantity. There is an one passed number. You have to write it. (answer: 3 5 7 9 .. 13 15 17 19 21, you type 11).
+- Brain-calc has simple math sentences (answer: '47 + 15', you have to type '62', answer: '12 * 5', you have to type '60').
+- Brain-event is asking you if a number is even (answer: '55', you have to type 'no', answer: '98', you have to type 'yes').
+- Brain-prime is asking you if a number is prime (answer: '57', you have to type 'yes', answer: '1', you have to type 'no').
+- Brain-gcd shows you two numbers and you have to calculate greatest common divisor of the numbers.
+- Brain progression has a sequence of numbers in which each differs from the preceding by a constant quantity. There is an one passed number. You have to write it. (answer: 3 5 7 9 .. 13 15 17 19 21, you type 11).
 
 Installing the package:
-Global: sudo npm install -g spkgdru-frontend-project-lvl1 /n
-Local: npm install spkgdru-frontend-project-lvl1
+- global: sudo npm install -g spkgdru-frontend-project-lvl1 /n
+- local: npm install spkgdru-frontend-project-lvl1
+
 <a href="https://asciinema.org/a/yi0rrmTIuKo9OzUwiGA2qD33x" target="_blank"><img src="https://asciinema.org/a/yi0rrmTIuKo9OzUwiGA2qD33x.svg" /></a>
 
 Starting cli-game brain-even:
