@@ -4,10 +4,9 @@ const answersToWin = 3;
 
 const game = (greeting, gameData) => {
   console.log('Welcome to the Brain Games!');
-  console.log(greeting || '');
+  console.log(greeting);
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello ${userName}!`);
-  if (!gameData) return;
   const attempt = (result = 0) => {
     if (result === answersToWin) {
       console.log(`Congratulations, ${userName}!`);
