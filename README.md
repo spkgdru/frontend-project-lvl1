@@ -16,7 +16,7 @@ Full list of games below:
 - brain-gcd
 - brain-progression
 
-Each game show you a question (math or logical sentence) you try to answer.
+Each game shows you a question (math or logical sentence) you try to answer.
 If you type right answer you see next question. Otherwise the game is interrupted. 
 Game has total three questions. You are winner if your answers were correct.
 
